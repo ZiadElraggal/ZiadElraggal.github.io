@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-...." crossorigin="anonymous" />
+    <script src="/three.min.js"></script>
+    <script src="/vanta.birds.min.js"></script>
+</head>
+<body>
+    <div class="menu-dots" id="menu-dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+    </div>
+    <div class="ze-button" id="ze-button">
+        <span>ZE</span>
+        <div class="ze-info">
+            <p id="LinkedIn">LinkedIn Profile</p>
+            <p id="viewResumeBtn">View Resume</p>
+        </div>
+    </div>
+    <div class="menu-dropdown" id="menu-dropdown">
+        <ul>
+            <li><i class="fas fa-user"></i> <a href="/about">About me</a></li>
+            <li><i class="fas fa-code"></i> <a href="/projects">My Projects</a></li>
+            <li><i class="fas fa-briefcase"></i> <a href="/experiences">Experiences</a></li>
+            <li><i class="fas fa-hands-helping"></i> <a href="/volunteering">Volunteering</a></li>
+            <li><i class="fas fa-envelope"></i> <a href="https://forms.gle/QatfZ5gnfM3SEnPr8" target="_blank">Contact Me</a></li>
+        </ul>
+    </div>
+    
+    </div>
+    <div class="centered-content" id="centered-content">
+        <div class="intro-text" id="intro-text">
+        <span class='glitch1' id="glitch1">fiwfwjei#(@*$1) <br> @#$IHHHIJ$@L <br> @#$#$NQECDWIDVJDV </span>
+        <span class='glitch2' id="glitch2">@#$@#DDQKE <br> 13#D@@!#$#@ <br> @#$JF@EFIE@FJ@#FJ@</span>
+    </div>
+    </div>
+    <script src="/script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const loadingScreen = document.getElementById("loading-screen");
+            VANTA.BIRDS({
+                el: "#centered-content",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                background: 0x7192f,
+                color1: 0xD40408,
+                color2: 0x04D4D,
+                birdSize: 1.5,
+                wingSpan: 25.00,
+                speedLimit: 3.00,
+            });
+
+
+        setTimeout(() => {
+            loadingScreen.style.display = "none";
+        }, 1500);
+    });
+    </script>
+    
+</body>
+</html>
