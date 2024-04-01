@@ -24,3 +24,15 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
 });
+VANTA.TOPOLOGY({
+  el: "body",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 2000.00,
+  minWidth: 50.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0xf9f9f9,
+  backgroundColor: 0x0
+});
