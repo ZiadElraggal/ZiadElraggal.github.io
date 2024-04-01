@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (viewResumeBtn) {
         viewResumeBtn.addEventListener('click', () => {
-            window.open('/Files/Resume.pdf', '_blank');
+            window.open('/public/Files/Resume.pdf', '_blank');
         });
     } else {
         console.error("Element with id 'Resume' not found.");
@@ -96,8 +96,8 @@ function typeText(element, text, index) {
             scale: 1.00,
             scaleMobile: 1.00,
             background: 0x7192f,
-            color1: 0xD40408,
-            color2: 0x04D4D,
+            color1: 0xff0000,
+            color2: 0xd1ffD,
             birdSize: 1.5,
             wingSpan: 25.00,
             speedLimit: 3.00,

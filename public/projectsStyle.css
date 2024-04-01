@@ -5,6 +5,9 @@ body {
     align-items: center;
     height: 200vh;
     background: radial-gradient(circle at 24.1% 68.8%, rgb(41, 41, 41) 0%, rgb(0, 0, 0) 99.4%);
+    background:url("/public/images/project2.jpg");
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px );
 }
 body::-webkit-scrollbar {
     width: 0.0001px;
@@ -16,7 +19,7 @@ body::-webkit-scrollbar {
 
 .neon-box {
     position: absolute;
-    top: 22%;
+    top: 10.5%;
     left: 28%;
     transform: translate(-50%);
     display: inline-block;
@@ -128,8 +131,8 @@ animation-duration: 8s;
 }
 .arrow h1{
     position: absolute;
-    top:500px;
-    left:890px;
+    top:470px;
+    left:850px;
     color: #FFD5FF;
     font-size: 1rem;
     font-family: 'Monoton',cursive;
@@ -139,8 +142,8 @@ animation-duration: 8s;
 
 .arrow h2{
     position: absolute;
-    top:825px;
-    left:882px;
+    top:860px;
+    left:842px;
     color: #FFD5FF;
     position:absolute;
     font-size: 1.5rem;

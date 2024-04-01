@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    cursor: url('/images/cursor.cur'),auto;
+    cursor: url('/public/images/cursor.cur'),auto;
     overflow:hidden;
 }
 .centered-content{
@@ -24,10 +24,8 @@ nav{
     z-index: 1;
 }
 
-.intro-text,
-.glitch1,
-.glitch2 {
-    top:-100px;
+.intro-text{
+    top:-30px;
     white-space: pre-line;
     color: wheat;
     font-size: 40px;
@@ -42,96 +40,11 @@ nav{
     transition: all 0.3s ease;
     text-align: center;
     z-index: 8;
+    backdrop-filter: blur(  2px );
+    -webkit-backdrop-filter: blur( 22px );
 }
 
-.glitch1,
-.glitch2 {
-    display: none;
-}
-.intro-text:hover {
-    color:blue;
-    font-size: 40px;
-    text-align: center;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-shadow: 0.05em 0 0 rgba(255,0,0,0.75),
-    -0.025em -0.05em 0 rgba(0,255,0,0.75),
-    0.025em 0.05em 0 rgba(0,0,255,0.75);
-    animation: glitch 500ms infinite;
-} 
-.intro-text:hover .glitch1 {
-    display: block;
-    position: absolute;
-    top: 150px;
-    color:red;
-    font-size: 40px;
-    text-align: center;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-shadow: 0.05em 0 0 rgba(255,0,0,0.75),
-    -0.025em -0.05em 0 rgba(0,255,0,0.75),
-    0.025em 0.05em 0 rgba(0,0,255,0.75);
-    animation: glitch 200ms infinite;
-    rotate: 35deg;
-}
-.intro-text:hover .glitch2{
-    display: block;
-    position: absolute;
-    top: 200px;
-    color:green;
-    font-size: 40px;
-    text-align: center;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-shadow: 0.05em 0 0 rgba(255,0,0,0.75),
-    -0.025em -0.05em 0 rgba(0,255,0,0.75),
-    0.025em 0.05em 0 rgba(0,0,255,0.75);
-    animation: glitch 800ms infinite;
-}
 
-@keyframes glitch{
-   0%{ 
-    text-shadow: 0.05em 0 0 rgba(255,0,0,0.75),
-    -0.05em -0.025em 0 rgba(0,255,0,0.75),
-    -0.025em 0.05em 0 rgba(0,0,255,0.75);
-    }
-    14%{ 
-        text-shadow: 0.05em 0 0 rgba(255,0,0,0.75),
-        -0.05em -0.025em 0 rgba(0,255,0,0.75),
-        -0.025em 0.05em 0 rgba(0,0,255,0.75);
-        }
-    15%{ 
-        text-shadow: -0.05em -0.025em 0 rgba(255,0,0,0.75),
-        0.025em 0.025em 0 rgba(0,255,0,0.75),
-        -0.05em -0.05em 0 rgba(0,0,255,0.75);
-
-    }
-    49%{ 
-        text-shadow: -0.05em -0.025em 0 rgba(255,0,0,0.75),
-        0.025em 0.025em 0 rgba(0,255,0,0.75),
-        -0.05em -0.05em 0 rgba(0,0,255,0.75);
-
-    }
-    50%{ 
-        text-shadow: 0.025em 0.05em 0 rgba(255,0,0,0.75),
-        0.05em 0 0 rgba(0,255,0,0.75),
-        0 -0.05em 0 rgba(0,0,255,0.75);
-
-    }
-    99%{ 
-        text-shadow: 0.025em 0.05em 0 rgba(255,0,0,0.75),
-        0.05em 0 0 rgba(0,255,0,0.75),
-        0 -0.05em 0 rgba(0,0,255,0.75);
-
-    }
-
-    100%{
-        text-shadow: -0.025em 0 0 rgba(255,0,0,0.75),
-        -0.025em -0.025em 0 rgba(0,255,0,0.75),
-        -0.025em -0.05em 0 rgba(0,0,255,0.75);
-    }
-
-}
 .ze-button{
     position: fixed;
     top: 100px;
