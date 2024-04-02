@@ -190,3 +190,14 @@ nav{
     margin-right: 8px;
     color: #ffffff; 
 }
+#mobileWarning {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
