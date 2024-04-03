@@ -87,7 +87,7 @@ function typeText(element, text, index) {
     document.addEventListener("DOMContentLoaded", () => {
         const loadingScreen = document.getElementById("loading-screen");
         VANTA.BIRDS({
-            el: "#centered-content",
+            el: "body",
             mouseControls: true,
             touchControls: true,
             gyroControls: false,
