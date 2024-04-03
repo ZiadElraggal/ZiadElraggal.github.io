@@ -197,8 +197,8 @@ nav{
 .alert {
     display: none;
     padding: 20px;
-    height: 20px;
-    width: 2000px;
+    height: 100vh;
+    width: 100vw;
     background-color: #f44336; 
     color: white;
     margin-bottom: 15px;
