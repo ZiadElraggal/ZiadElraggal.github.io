@@ -1,20 +1,16 @@
 body{
     margin: 0;
-    display: flex;
-    height: 100vh;
-    width: 100vw;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    cursor: url('/images/cursor.cur'),auto;
+    cursor: url('/public/images/cursor.cur'),auto;
     overflow:hidden;
 }
 .centered-content{
-    position:absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    top:45vh;
-    left: 50vw;
+    height: 100vh;
     background-size: cover;
 
 }
@@ -28,8 +24,8 @@ nav{
     z-index: 1;
 }
 
-.intro-text{    
-    position: fixed;
+.intro-text{
+    top:-30px;
     white-space: pre-line;
     color: wheat;
     font-size: 40px;
@@ -194,34 +190,14 @@ nav{
     margin-right: 8px;
     color: #ffffff; 
 }
-
-.alert {
+#mobileWarning {
     display: none;
-    padding: 20px;
-    height: 20px;
-    width: 2000px;
-    background-color: #f44336; 
-    color: white;
-    margin-bottom: 15px;
-    font-weight: bold;
-  }
-  
-  .closebtn {
-    margin-left: 15px;
-    color: white;
-    font-weight: bold;
-    float: right;
-    font-size: 22px;
-    line-height: 20px;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-  
-  .closebtn:hover {
-    color: black;
-  }
-  @media (pointer:none), (pointer:coarse) {
-    .alert{
-        display:block;
-    }
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
 }

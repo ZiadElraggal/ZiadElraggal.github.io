@@ -106,3 +106,28 @@ function typeText(element, text, index) {
 
 });
 
+function detectMob() {
+    const toMatch = [
+        /Android/i,
+        /webOS/i,
+        /iPhone/i,
+        /iPad/i,
+        /iPod/i,
+        /BlackBerry/i,
+        /Windows Phone/i
+    ];
+    
+    return toMatch.some((toMatchItem) => {
+        return navigator.userAgent.match(toMatchItem);
+    });
+}
+
+window.onload = function() {
+var mobileWarning = document.getElementById('mobileWarning');
+
+var isMobile = detectMob();
+
+if (isMobile) {
+    mobileWarning.style.display = 'block';
+}
+};
