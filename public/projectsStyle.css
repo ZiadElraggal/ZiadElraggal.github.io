@@ -19,8 +19,8 @@ body::-webkit-scrollbar {
 
 .neon-box {
     position: absolute;
-    top: 10.5%;
-    left: 28%;
+    top: 19vh;
+    left: 30vw;
     transform: translate(-50%);
     display: inline-block;
     padding: 40px;
@@ -131,8 +131,8 @@ animation-duration: 8s;
 }
 .arrow h1{
     position: absolute;
-    top:470px;
-    left:850px;
+    top:55vh;
+    left:50vw;
     color: #FFD5FF;
     font-size: 1rem;
     font-family: 'Monoton',cursive;
@@ -142,8 +142,8 @@ animation-duration: 8s;
 
 .arrow h2{
     position: absolute;
-    top:860px;
-    left:842px;
+    top:102vh;
+    left:49.5vw;
     color: #FFD5FF;
     position:absolute;
     font-size: 1.5rem;

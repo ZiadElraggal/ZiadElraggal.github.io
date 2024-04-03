@@ -45,7 +45,7 @@ nav{
     text-align: center;
     z-index: 8;
     backdrop-filter: blur(  2px );
-    -webkit-backdrop-filter: blur( 22px );
+    -webkit-backdrop-filter: blur( 2px );
 }
 
 
