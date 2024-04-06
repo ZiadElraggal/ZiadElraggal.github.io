@@ -262,3 +262,60 @@ animation-duration: 8s;
 .project-description2{
     font-size: 11.6px;
 }
+#video-modal {
+    display: none; 
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+  }
+  
+  #modal-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #close-modal-button {
+    position: relative;
+    top: 55vh;
+    left: 88vw;
+    background-color: transparent;
+    color: #FFD5FF;
+    border: 2px solid #FFD5FF;
+    font-family: 'Monoton', cursive; 
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  #close-modal-button:hover{
+    color: #f309f3;
+    font-family: 'Monoton',cursive;
+    text-shadow: none; 
+    transform: scale(1.3);
+  }
+  #view-project-button {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 8px 16px;
+    background-color: transparent;
+    color: #FFD5FF; 
+    text-decoration: none;
+    border: 2px solid #FFD5FF; 
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Monoton', cursive;
+    font-size: 10px;
+    position: relative;
+    top:80px;
+}
+#view-project-button:hover {
+    background-color: #FFD5FF;
+    color: #111; 
+    text-shadow: none; 
+}
