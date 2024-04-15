@@ -5,5 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   assetsInclude: ['**/*.html'],
-  assetsInclude: ['**/*.glb']
+  assetsInclude: ['**/*.glb'],
+  base:"/ZiadElraggal.github.io/"
 })
