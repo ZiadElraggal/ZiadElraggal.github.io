@@ -3,9 +3,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200vh;
+    height: 300vh;
     background: radial-gradient(circle at 24.1% 68.8%, rgb(41, 41, 41) 0%, rgb(0, 0, 0) 99.4%);
-    background:url("/public/images/project2.jpg");
+    background:url("/images/project2.jpg");
     backdrop-filter: blur( 8px );
     -webkit-backdrop-filter: blur( 8px );
 }
@@ -20,7 +20,7 @@ body::-webkit-scrollbar {
 .neon-box {
     position: absolute;
     top: 19vh;
-    left: 30vw;
+    left: 26vw;
     transform: translate(-50%);
     display: inline-block;
     padding: 40px;
@@ -70,7 +70,7 @@ body::-webkit-scrollbar {
 }
 
 .neon {
-    font-size: 3.5em;
+    font-size: 4.5em;
     font-family: 'Monoton', cursive;
     font-weight: bold;
     color: #FFD5FF;
@@ -129,27 +129,7 @@ animation-duration: 8s;
         opacity: 0.4;
     }
 }
-.arrow h1{
-    position: absolute;
-    top:55vh;
-    left:50vw;
-    color: #FFD5FF;
-    font-size: 1rem;
-    font-family: 'Monoton',cursive;
-    text-shadow: 1px 0px 4px #FFD5FF, 2px 0px 4px #FFD5FF, 3px 0px 4px #FFD5FF, 2px 0px 3px #D42CCA, 2px 3px 15px #D42CCA, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #D42CCA, 40px 0vw 200px #D42CCA;
 
-}
-
-.arrow h2{
-    position: absolute;
-    top:102vh;
-    left:49.5vw;
-    color: #FFD5FF;
-    position:absolute;
-    font-size: 1.5rem;
-    font-family: 'Monoton',cursive;
-    text-shadow: 1px 0px 4px #FFD5FF, 2px 0px 4px #FFD5FF, 3px 0px 4px #FFD5FF, 2px 0px 3px #D42CCA, 2px 3px 15px #D42CCA, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #D42CCA, 40px 0vw 200px #D42CCA;
-}
 .projects-container {
     display: flex;
     flex-wrap: wrap;
@@ -160,15 +140,15 @@ animation-duration: 8s;
 }
 
 .project {
-    width: 300px;
-    min-height: 300px;
+    width: 600px;
+    min-height: 400px;
     background-color: transparent;
     box-shadow: 0 0 30px rgba(255, 0, 224, 0.5);
     border: 2px solid #ffffffd8;
     border-radius: 10px;
     padding: 20px;
     position: relative;
-    top:180px;
+    top:150px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
@@ -186,7 +166,7 @@ animation-duration: 8s;
 }
 
 .project-title {
-    font-size: 60px;
+    font-size: 80px;
     font-weight: bold;
     margin-bottom: 10px;
     color: #ffd5ffd2;
@@ -260,7 +240,7 @@ animation-duration: 8s;
     text-shadow: none; 
 }
 .project-description2{
-    font-size: 11.6px;
+    font-size: 17px;
 }
 #video-modal {
     display: none; 
@@ -271,6 +251,7 @@ animation-duration: 8s;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7); 
+    
   }
   
   #modal-video {
@@ -282,7 +263,7 @@ animation-duration: 8s;
   
   #close-modal-button {
     position: relative;
-    top: 55vh;
+    top: 102vh;
     left: 88vw;
     background-color: transparent;
     color: #FFD5FF;

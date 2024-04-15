@@ -1,59 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <title>Home</title>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon1.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/public/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-...." crossorigin="anonymous" />
-    <script src="/public/three.min.js"></script>
-    <script src="/public/vanta.birds.min.js"></script>
-    <link rel="icon" type="image/x-icon" href="public/images/favicon.ico">
-</head>
-<body>
-    <div class="menu-dots" id="menu-dots">
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-    </div>
-    <div class="ze-button" id="ze-button">
-        <span>ZE</span>
-        <div class="ze-info">
-            <p id="LinkedIn">LinkedIn Profile</p>
-            <p id="viewResumeBtn">View Resume</p>
-        </div>
-    </div>
-    <div class="menu-dropdown" id="menu-dropdown">
-        <ul>
-            <li><i class="fas fa-user"></i> <a href="/about">About me</a></li>
-            <li><i class="fas fa-code"></i> <a href="/projects">My Projects</a></li>
-            <li><i class="fas fa-briefcase"></i> <a href="./WIP">Experiences</a></li>
-            <li><i class="fas fa-hands-helping"></i> <a href="./WIP">Volunteering</a></li>
-            <li><i class="fas fa-envelope"></i> <a href="https://forms.gle/QatfZ5gnfM3SEnPr8" target="_blank">Contact Me</a></li>
-        </ul>
-    </div>
-    
-    <div class="alert">
-        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-        This Website was designed for larger screen usage. It will not function as expected on your mobile device. I am actively working on making that possible! (Note: If using a touch-screen enabled laptop or a tablet you can ignore this message)
-      </div>
-    <div class="centered-content" id="centered-content">
-        <div class="intro-text" id="intro-text">
-    </div>
-    </div>
-    <script src="/public/script.js"></script>
-    <script>
-
-    </script>
-    
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <script src="/three.min.js"></script>
+    <script src="/p5.min.js"></script>
+    <title>Ziad Elraggal</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

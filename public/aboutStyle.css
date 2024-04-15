@@ -2,7 +2,7 @@ body {
     margin: 0;
     display: flex;
     height: 100vh;
-    overflow-x:hidden;
+    background-color: black;
 }
 body::-webkit-scrollbar {
     width: 0.0001px;
@@ -27,10 +27,10 @@ body::-webkit-scrollbar {
     text-transform: uppercase;
     position: relative;
     overflow: hidden;
-    letter-spacing: -13px;
     font-family: cursive;
     cursor:pointer;
     z-index: 99;
+    background-color: transparent;
 }
 .half:hover {
     display: inline-block;
@@ -91,12 +91,12 @@ body::-webkit-scrollbar {
 }
 #timeline-btn {
     position: fixed;
-    top: 50px;
-    right: 20px;
+    top: 10px;
+    right: -1540px;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 20px;
     background-color: transparent;
-    color: #e2dddd;
+    color: #a7a7a3;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -168,7 +168,7 @@ body::-webkit-scrollbar {
 .wrapper{
     position: relative;
     color:rgb(203, 204, 205);
-    top:130px;
+    top:50px;
     left:200px;
     background: rgba(255, 255, 255, 0.192);
     box-shadow: 0 8px 32px 0 rgba(249, 249, 250, 0.37);
@@ -176,7 +176,7 @@ body::-webkit-scrollbar {
     -webkit-backdrop-filter: blur( 5px );
     border-radius: 50px;
     border: 3px solid rgba( 255, 255, 255, 0.18 );
-    height: 420px;
+    height: 500x;
     width: 600px;
     z-index: 8;
     padding:12px;
@@ -184,7 +184,7 @@ body::-webkit-scrollbar {
 .wrapper2{
     position: relative;
     color:rgb(203, 204, 205);
-    top:300px;
+    top:150px;
     left:1000px;
     background: rgba(255, 255, 255, 0.192);
     box-shadow: 0 8px 32px 0 rgba(249, 249, 250, 0.37);
@@ -192,7 +192,7 @@ body::-webkit-scrollbar {
     -webkit-backdrop-filter: blur( 5px );
     border-radius: 50px;
     border: 3px solid rgba( 255, 255, 255, 0.18 );
-    height: 405px;
+    height: 530px;
     width: 600px;
     z-index: 8;
     padding:12px;
@@ -200,7 +200,7 @@ body::-webkit-scrollbar {
 .wrapper3{
     position: relative;
     color:rgb(203, 204, 205);
-    top:400px;
+    top:200px;
     left:180px;
     background: rgba(255, 255, 255, 0.192);
     box-shadow: 0 8px 32px 0 rgba(249, 249, 250, 0.37);
@@ -208,8 +208,8 @@ body::-webkit-scrollbar {
     -webkit-backdrop-filter: blur( 5px );
     border-radius: 50px;
     border: 3px solid rgba( 255, 255, 255, 0.18 );
-    height: 480px;
-    width: 550px;
+    height: 600px;
+    width: 600px;
     z-index: 8;
     padding:12px;
 }
