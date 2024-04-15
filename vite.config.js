@@ -6,5 +6,4 @@ export default defineConfig({
   plugins: [react()],
   assetsInclude: ['**/*.html'],
   assetsInclude: ['**/*.glb'],
-  base:"/ZiadElraggal.github.io/"
 })
